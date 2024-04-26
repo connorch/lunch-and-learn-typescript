@@ -1,0 +1,19 @@
+{
+  "name": "lunch-and-learn-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marp-team/marp-cli": "3.4.0",
+    "@marp-team/marp-core": "3.9.0",
+    "@marp-team/marpit": "2.6.1",
+    "viem": "2.9.26",
+    "wagmi": "2.5.22"
+  }
+}
