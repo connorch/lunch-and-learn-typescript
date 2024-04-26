@@ -1,4 +1,4 @@
-import { Abi, ChainContract, createPublicClient, erc20Abi, http } from "viem";
+import { erc20Abi } from "viem";
 import {
   Chain,
   Prettify,
@@ -6,7 +6,7 @@ import {
   mainnet as wagmiEthereum,
 } from "wagmi/chains";
 import { ChainContracts } from "./contracts";
-import { ExtractObject } from "./extract-object";
+import { ExtractObject } from "../helpers/type-utils";
 
 // only used internally within this file.
 type SupportedChainBase = Prettify<

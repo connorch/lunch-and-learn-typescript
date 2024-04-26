@@ -1,12 +1,13 @@
 ---
-theme: gaia
+marp: true
+theme: uncover
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('https://raw.githubusercontent.com/connorch/marp-lunch-and-learn-typescript/main/src/assets/Gradient_3.png')
 ---
 
-![bg left:40% 80%](https://marp.app/assets/marp.svg)
+![bg left:40% 80%](https://raw.githubusercontent.com/connorch/marp-lunch-and-learn-typescript/main/src/assets/256x256_App_Icon_Pink.svg)
 
 # **TypeScript**
 
@@ -14,11 +15,14 @@ Tips & Tricks!
 
 ---
 
-# How to write slides
+# Assumed knowledge
 
-Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
+- Basic types (`string`, `number`, `boolean`, `null`, `undefined`, enums)
+- Array vs Tuple
+- Basic Generics
+- Union `|` vs Intersection `&`
 
-```markdown
+```ts
 # Slide 1
 
 foobar

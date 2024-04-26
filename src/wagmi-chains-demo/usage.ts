@@ -1,19 +1,5 @@
-import { createWalletClient, createPublicClient, http } from "viem";
-import { SupportedChain, avalanche, ethereum, supportedChains } from "./chains";
-import { polygon, mainnet as wagmiMainnet } from "wagmi/chains";
-import {
-  useReadContract,
-  useReadContracts,
-  usePublicClient,
-  useConnectorClient,
-  useConfig,
-  useWalletClient,
-  useAccount,
-  useAccountEffect,
-} from "wagmi";
-import { readContracts, readContract } from "wagmi/actions";
-import { useQuery } from "@tanstack/react-query";
-import { readContractsQueryOptions } from "wagmi/query";
+import { SupportedChain } from "./chains";
+import { useReadContract, useReadContracts } from "wagmi";
 
 /**
  * Examples of simplified type-guarding.
