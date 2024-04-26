@@ -13,7 +13,8 @@
     "@marp-team/marp-cli": "3.4.0",
     "@marp-team/marp-core": "3.9.0",
     "@marp-team/marpit": "2.6.1",
+    "@tanstack/react-query": "5.32.0",
     "viem": "2.9.26",
-    "wagmi": "2.5.22"
+    "wagmi": "2.5.7"
   }
 }
